@@ -1,0 +1,125 @@
+body{
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+.mainvalue{
+    padding-top: 3% ;
+    display: flex;
+    margin: auto;
+}
+.nav-style{
+    display: flex;
+}
+.nav1-value{
+    font-family: sans-serif;
+    color: #000;
+    font-size: 2rem;
+  
+}
+.nav2-value{
+    margin: auto;
+    font-family: sans-serif;
+    color: rgb(185, 165, 165);
+}
+button{
+    background-color:rgb(243,22,77);
+    height: 40px;
+    width: 120px;
+    border-radius: 10%;
+}
+.image-description{
+    background-color: white;
+}
+.image-section img{
+    border-radius: 5%;
+    margin: auto;
+}
+.text-value1{
+    display: flex;
+    margin: auto;
+}
+.text-value1 h2{
+    font-family: sans-serif;
+    
+}
+.text-value2{
+    display: flex;
+}
+.text-value2 i{
+    padding-top: 10px;
+    color: red;
+}
+.text-value3{
+    display: flex;
+    margin: auto;
+}
+
+.text-value4 i{
+    color: red;
+}
+.aside-section2{
+    color: rgb(33, 45, 56);
+   
+    left: auto;
+    margin: auto;
+}
+.content{
+    display: flex;
+    padding-top: 5%;
+}
+.content2{
+    margin: auto;
+}
+.About-video{
+    display: flex;
+}
+.about-video2{
+    margin: auto;
+}
+
+.Mentor-cards{
+    padding-top: 5%;
+    display: flex;
+}
+.about-this-mentor-topic{
+    margin: auto;
+}
+
+/* Review */
+.Review{
+    padding-top: 4%;
+}
+
+.reviewer{
+    display: flex;
+}
+.user-id{
+    display: flex;
+}
+.user-id img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.bt{
+    width: auto;
+}
+
+.Micro-course{
+    padding-top: 4%;
+}
+.micro{
+    display: flex;
+}
+.micro img{
+    margin: auto;
+}
+.Mentor-details{
+    display: flex;
+}
+.Footer{
+    padding-top: 2%;
+    background: #000;
+    display: flex;
+}
