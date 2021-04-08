@@ -27,6 +27,7 @@ button{
     height: 40px;
     width: 120px;
     border-radius: 10%;
+    color: #ffffff;
 }
 .image-description{
     background-color: white;
@@ -46,6 +47,9 @@ button{
 .text-value2{
     display: flex;
 }
+.text-value2 hr{
+    color:rgb(243,22,77);
+}
 .text-value2 i{
     padding-top: 10px;
     color: red;
@@ -54,25 +58,105 @@ button{
     display: flex;
     margin: auto;
 }
-
+.text-value3 p{
+    color: rgb(194, 194, 194);
+}
+.text-value4{
+    margin: auto;
+    display: block;
+    width: 535px;
+    height: 130px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+   
+    border-radius: 3%;
+}
+.text-value4 h4{
+    font-family: sans-serif;
+}
+.text-value4 hr{
+    width: 60%;
+    background: rgb(243,22,77);
+}
 .text-value4 i{
     color: red;
 }
-.aside-section2{
-    color: rgb(33, 45, 56);
-   
-    left: auto;
-    margin: auto;
+.text-value4 div p{
+    color: rgb(35, 38, 39);
+    font-family: sans-serif;
 }
+
+
+
+
+.aside-section2{
+    margin: auto;
+    display: block;
+    width: 255px;
+    height: 550px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 70px 30px 0;
+    position: absolute;
+    left: 50%;
+    border-radius: 10%;
+   
+}
+@media screen and (max-width:630px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        max-width: 75rem;
+        margin: auto;
+      }
+      .aside-section1 {
+        flex: 25%;
+      }
+
+    /* .mainvalue
+    {
+        width: 50%;
+    }
+    .aside-section1{
+        left: 8%;
+        width: 50%;
+    }
+    .aside-section2{
+        top:12%;
+        width: 40%;
+    } */
+}
+  
+.nav1-value i{
+    font-size: .5rem;
+    color: red;
+}
+.text-value1 h4 {
+    color: rgb(243,22,77);
+    font-family: sans-serif;
+    padding-left: 17px;
+}
+.text-value1 i {
+    color: rgb(243,22,77);
+   padding-top: 15px;
+    padding-left: 17px;
+}
+.text-value2 i{
+    color: rgb(243,22,77);
+}
+.text-value2 h5{
+    color: rgb(243,22,77);
+    padding-left: 55%;
+}
+
 .content{
     display: flex;
-    padding-top: 5%;
+    padding-top: 15%;
 }
-.content2{
-    margin: auto;
-}
+
 .About-video{
     display: flex;
+    padding-top: 35%;
 }
 .about-video2{
     margin: auto;
@@ -88,7 +172,7 @@ button{
 
 /* Review */
 .Review{
-    padding-top: 4%;
+    padding-top: 40%;
 }
 
 .reviewer{
@@ -103,7 +187,11 @@ button{
     width: 100px;
 }
 .bt{
-    width: auto;
+    width: 100%;
+    background: none;
+    color: rgb(243,22,77);
+    
+    border:1px solid rgb(243,22,77);
 }
 
 .Micro-course{
@@ -119,7 +207,230 @@ button{
     display: flex;
 }
 .Footer{
-    padding-top: 2%;
+    padding-top: 3%;
     background: #000;
     display: flex;
+}
+/* Key fearture */
+.content1{
+    margin: auto;
+    display: block;
+    width: 255px;
+    height: 255px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 70px 30px 0;
+    position: absolute;
+    border-radius: 10%;
+    
+}
+.content2{
+    margin: auto;
+    display: block;
+    width: 555px;
+    height: 255px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 70px 30px 0;
+    position: absolute;
+    left: 50%;
+    border-radius: 10%;
+}
+.about-video2{
+    margin: auto;
+    display: block;
+    width: 555px;
+    height: 255px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 70px 30px 0;
+    position: absolute;
+    left: 50%;
+    border-radius: 10%;
+}
+.about-this-mentor{
+    margin: auto;
+    display: block;
+    width: 455px;
+    height: 395px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 70px 30px 0;
+    position: absolute;
+    border-radius: 10%;
+}
+.about-this-mentor-topic{
+    margin: auto;
+    display: block;
+    width: 555px;
+    height: 395px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 70px 30px 0;
+    position: absolute;
+    left: 50%;
+    border-radius: 10%;
+}
+.user-profile1{
+    margin: .55rem;
+    display: inline-block;
+    width: 195px;
+    height: 465px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 70px 30px 0;
+    border-radius: 10%;
+    
+}
+.Mentor-cards{
+    display: flex;
+}
+/* .text-value4{
+   
+    display: inline-block;
+    width: 500px;
+    height: 105px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 70px 30px 0;
+    border-radius: 10%;
+} */
+.aside-section1{
+    display: block;
+    width: 530px;
+    height: 550px;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 70px 30px 0;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+/* Text styling of user profile */
+.user-profile div h4{
+    text-align: center;
+    color: rgb(243,22,77);
+    font-size: bold;
+}
+.user-profile div h5{
+    text-align: center;
+    color: #0f0f0f;
+}
+.user-profile div h5 hr{
+    background-color: rgb(243,22,77);
+}
+.user-profile div p {
+    color: rgb(155, 158, 161);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .about-person {
+    display: inline;
+    
+}
+.firstvalue{
+     float: left;
+    color: #ffffff;
+   background-color: grey;
+
+}
+.secondvalue{
+    float:right;
+    color: #ffffff;
+    background-color: grey;
+}
+.thirdvalue{
+    float: right;
+    color: #ffffff;
+    padding-right: 9px;
+    background-color: grey;
+}
+
+.content1 h2{
+    text-align: center;
+    color: #000;
+}
+.content1 p{
+    /* text-align: center; */
+    opacity: 100%;
+}
+.content1 i{
+    color: rgb(243,22,77);
+
+}
+.content2 h2{
+    text-align: center;
+    color: #000;
+}
+.content2 p{
+    left: 3%;
+}
+.about-video2 h3{
+    text-align: center;
+}
+.about-this-mentor h3 {
+    text-align: center;
+}
+.about-this-mentor-topic h3{
+    text-align: center;
+}
+.aboutmessage{
+    padding-top: 4%;
+}
+
+.user-profile1 div h4{
+    text-align: center;
+    color: rgb(243,22,77);
+    font-size: bold;
+}
+.user-profile1 div h5{
+    text-align: center;
+    color: #0f0f0f;
+}
+.user-profile1 div h5 hr{
+    background-color: rgb(243,22,77);
+}
+.user-profile1 div p {
+    color: rgb(155, 158, 161);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-element {
+    display: flex;
+}
+.footer-element h2{
+    color: aliceblue;
+
+}
+.footer-element div i{
+color: red;
+}
+.abouttheterm {
+    display: flex;
+}
+.footer-element div h5{
+    color: aliceblue;
+}
+.aboutfoo i{
+    font-size: .9rem;
+    color: red;
+    margin: auto
+}
+
+
+.aboutfoo{
+    display: flex;
+   
+}
+.aboutfoo i{
+    margin-left:10%;
+}
+.aboutfoo h5{
+    
+    padding-left: 54%;
 }
